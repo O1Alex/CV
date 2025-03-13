@@ -136,3 +136,28 @@ main ul{
     display: flex;
     justify-content: space-between;
 }
+
+.title{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+    
+.place{
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+    
+.date{
+    color: rgb(23, 171, 179);
+}
+    
+.level{
+    margin-bottom: 0px;
+}
+    
+.description{
+text-align: justify;
+text-indent: 5%;
+}
+/* DYNAMIQUE */
