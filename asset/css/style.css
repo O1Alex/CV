@@ -1,0 +1,173 @@
+/* POLICES */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+/* TITRES */
+h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+h3{
+    color: #17abb3;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* BALISES SIMPLES */
+body{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Raleway";
+}
+    
+header {
+    background-color: rgb(23, 171, 179);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+    
+main{
+    display: flex;
+}
+    
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    padding: 10px;
+}
+        
+a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+nav{
+    display: flex;
+    margin-bottom: 25px;
+    }
+
+header i{
+        color: #ffffff;
+}
+        
+main i{
+    color: #17abb3;
+}
+
+span{
+    color: black;
+}
+
+/* STYLE LISTES */
+nav ul li{
+    list-style-type: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+    
+main ul{
+    list-style: square;
+    color: #17abb3;
+    padding-left: 20px;
+}
+
+/* ID */
+#photo_profil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-right: 400px;
+    cursor: zoom-in;
+}
+
+#présentation{
+    padding: 30px 50px;
+    box-sizing: border-box;
+    width: 810px;
+}
+
+#performance{
+    background-color: #f5f5f5;
+    width: 350px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+    
+#insta{
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+/* CLASS */
+.icone_f{
+    margin: 10px;
+}
+    
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+    
+.place{
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+    
+.date{
+    color: rgb(23, 171, 179);
+}
+    
+.level{
+    margin-bottom: 0px;
+}
+    
+.description{
+text-align: justify;
+text-indent: 5%;
+}
+
+/* DYNAMIQUE */
+footer a:hover{
+    opacity: 70%;
+}
+
+.row:hover{
+    border-left: 5px solid #17abb3;
+    background-color: #e3e3e3;
+}
+    
