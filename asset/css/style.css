@@ -81,6 +81,19 @@ span{
     color: black;
 }
 
+/* STYLE LISTES */
+nav ul li{
+    list-style-type: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+    
+main ul{
+    list-style: square;
+    color: #17abb3;
+    padding-left: 20px;
+}
+
 /* ID */
 #photo_profil{
     height: 150px;
