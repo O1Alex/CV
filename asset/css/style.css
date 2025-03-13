@@ -7,7 +7,23 @@
     src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
 }
 
+/* TITRES */
+h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+}
 
+h2{
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+h3{
+    color: #17abb3;
+    font-family: "Lato", sans-serif;
+}
 
 
 
