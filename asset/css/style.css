@@ -121,3 +121,18 @@ main ul{
     background-color: #ffffff;
     margin: 10px;
 }
+
+/* CLASS */
+.icone_f{
+    margin: 10px;
+}
+    
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+}
