@@ -26,5 +26,67 @@ h3{
 }
 
 
+/* BALISES SIMPLES */
+body{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Raleway";
+}
+    
+header {
+    background-color: rgb(23, 171, 179);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+    
+main{
+    display: flex;
+}
+    
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    padding: 10px;
+}
+        
+a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+nav{
+    display: flex;
+    margin-bottom: 25px;
+    }
 
-/* BALISES COMMUNES */
+header i{
+        color: #ffffff;
+}
+        
+main i{
+    color: #17abb3;
+}
+
+span{
+    color: black;
+}
+
+/* ID */
+#photo_profil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-right: 400px;
+    cursor: zoom-in;
+}
