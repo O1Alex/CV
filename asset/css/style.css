@@ -103,3 +103,21 @@ main ul{
     margin-right: 400px;
     cursor: zoom-in;
 }
+
+#présentation{
+    padding: 30px 50px;
+    box-sizing: border-box;
+    width: 810px;
+}
+
+#performance{
+    background-color: #f5f5f5;
+    width: 350px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+    
+#insta{
+    background-color: #ffffff;
+    margin: 10px;
+}
